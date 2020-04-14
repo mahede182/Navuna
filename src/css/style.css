@@ -1,0 +1,133 @@
+/* 
+    project Name: Glozzom
+    author: mahede hasan
+    description: this is sample website for made some special
+*/
+.navbar {
+  background: #222930; }
+  .navbar .nav-item {
+    padding-left: 1em; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background: url("../img/image2.jpeg");
+  background-size: cover; }
+
+.carousel-img2 {
+  background: url("../img/image3.jpeg");
+  background-size: cover; }
+
+.carousel-img3 {
+  background: url("../img/image4.jpg");
+  background-size: cover; }
+
+.carousel-img4 {
+  background: url("../img/image5.jpeg");
+  background-size: cover; }
+
+#showcase #Pdesign {
+  background: url("../img/prev.png");
+  background-size: cover; }
+
+#showcase #Ndesign {
+  background: url("../img/next.png");
+  background-size: cover; }
+
+#homeicon .fa {
+  font-size: 50px;
+  color: #4EB1BA; }
+
+#getstarted {
+  background: url("../img/image3.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.692);
+    height: 100%; }
+  #getstarted #h-clr {
+    color: #E9E9E9; }
+  #getstarted p {
+    color: #b6b6b6; }
+
+#home-video {
+  background: url("../img/image2.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #home-video .dark-overlay {
+    background: rgba(0, 0, 0, 0.692);
+    height: 100%; }
+  #home-video .fa {
+    font-size: 50px;
+    color: #ff4242; }
+
+#gallery img {
+  min-height: 250px; }
+
+#copyright {
+  background: url("../img/bg.jpg");
+  background-size: cover;
+  background-position: center; }
+
+#AboutUsHeader {
+  background: url("../img/image1.jpeg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+#icon-box .fa {
+  font-size: 50px; }
+
+#testimonial .slick-next:before {
+  color: #b30000; }
+
+#testimonial .slick-prev:before {
+  color: #009607; }
+
+#servicesHeader {
+  background: url("../img/image2.jpeg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+#BlogHeader {
+  background: url("../img/image3.jpeg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+.card-img-top {
+  min-height: 235px; }
+
+.lead {
+  font-size: 1.15rem;
+  font-weight: 250; }
+
+.btn {
+  background: #4EB1BA;
+  color: #E9E9E9; }
+
+section {
+  background-color: #E9E9E9; }
+
+.SignUpDesign {
+  background-color: #222930; }
+
+#icon-box p {
+  font-size: 15px; }
+
+@media (max-width: 768px) {
+  .nav-item {
+    padding-left: 0 !important; }
+  .card {
+    width: 100%; }
+  .card-columns {
+    column-count: 1; } }
+
+@media (max-width: 480px) {
+  .carousel h2 {
+    font-size: 2rem; }
+  .carousel p {
+    font-size: 1rem; } }
